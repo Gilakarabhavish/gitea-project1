@@ -1,8 +1,8 @@
-\# Task 1 - Gitea Local Setup \& Understanding
+# Task 1 - Gitea Local Setup \& Understanding
 
 
 
-\## Gitea
+## Gitea
 
 
 
@@ -14,7 +14,7 @@ Written in Go, Gitea is lightweight and runs across major platforms such as Linu
 
 
 
-\## Task Objective
+## Task Objective
 
 
 
@@ -22,17 +22,17 @@ The main objective was to set up Gitea locally, understand the project structure
 
 
 
-\## Repository Setup
+## Repository Setup
 
 
 
-\- Forked the official Gitea repository to my GitHub account.
+- Forked the official Gitea repository to my GitHub account.
 
-\- Cloned the repository to my local system.
+- Cloned the repository to my local system.
 
-\- Added `origin` for my GitHub fork and `upstream` for the official Gitea repository.
+- Added `origin` for my GitHub fork and `upstream` for the official Gitea repository.
 
-\- Created the `gitea-task-1` branch for the task work.
+- Created the `gitea-task-1` branch for the task work.
 
 
 
@@ -40,29 +40,29 @@ Some important parts of the repository that were reviewed:
 
 
 
-\- `cmd/` - application commands
+- `cmd/` - application commands
 
-\- `models/` - database models
+- `models/` - database models
 
-\- `routers/` - application routes
+- `routers/` - application routes
 
-\- `services/` - service logic
+- `services/` - service logic
 
-\- `web\_src/` - frontend source
+- `web\_src/` - frontend source
 
-\- `templates/` - UI templates
+- `templates/` - UI templates
 
-\- `tests/` - test files
+- `tests/` - test files
 
-\- `main.go` - application entry point
+- `main.go` - application entry point
 
-\- `go.mod` - Go module configuration
+- `go.mod` - Go module configuration
 
-\- `Makefile` - build commands
+- `Makefile` - build commands
 
 
 
-\## Project Understanding
+## Project Understanding
 
 
 
@@ -70,17 +70,17 @@ Reviewed the main project documentation:
 
 
 
-\- `README.md`
+- `README.md`
 
-\- `CONTRIBUTING.md`
+- `CONTRIBUTING.md`
 
-\- `docs/build-setup.md`
+- `docs/build-setup.md`
 
-\- `docs/development.md`
+- `docs/development.md`
 
 
 
-\## Environment Setup
+## Environment Setup
 
 
 
@@ -110,7 +110,7 @@ The required Go version and pnpm version were checked from the project configura
 
 
 
-\## Build and Run
+## Build and Run
 
 
 
@@ -154,27 +154,27 @@ The Initial Configuration page was verified in the browser.
 
 
 
-\## Issues Faced
+## Issues Faced
 
 
 
-\- Some tools were available in Git Bash but not initially in the MSYS2 UCRT64 environment.
+- Some tools were available in Git Bash but not initially in the MSYS2 UCRT64 environment.
 
-\- PATH configuration was adjusted to access Go, Node.js, npm, pnpm, and Make.
+- PATH configuration was adjusted to access Go, Node.js, npm, pnpm, and Make.
 
-\- `pnpm` was not initially available and was installed with the project-required version.
+- `pnpm` was not initially available and was installed with the project-required version.
 
-\- Git LFS was initially unavailable and required separate setup.
+- Git LFS was initially unavailable and required separate setup.
 
-\- The `shared\_info::initialize` MSYS2 warnings appeared repeatedly but did not affect the setup.
+- The `shared\_info::initialize` MSYS2 warnings appeared repeatedly but did not affect the setup.
 
-\- The Gitea repository path in MSYS2 differed from the normal Windows path, which caused some initial confusion while locating files.
+- The Gitea repository path in MSYS2 differed from the normal Windows path, which caused some initial confusion while locating files.
 
-\- The Gitea application was successfully built and started after resolving the environment issues.
+- The Gitea application was successfully built and started after resolving the environment issues.
 
 
 
-\## Documentation
+## Documentation
 
 
 
@@ -194,7 +194,7 @@ Task1 doc/Task Document 1.pdf
 
 
 
-\## GitHub and Pull Request
+## GitHub and Pull Request
 
 
 
@@ -214,7 +214,7 @@ gitea-task-1 → main
 
 
 
-\## What I Learned
+## What I Learned
 
 
 
@@ -222,7 +222,7 @@ This task helped me understand the Gitea project structure, documentation, Git f
 
 
 
-\## Status
+## Status
 
 
 
